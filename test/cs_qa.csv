@@ -1,0 +1,528 @@
+Question,Answer
+C++ là gì?,"**C++** là một ngôn ngữ lập trình cấp cao, hướng đối tượng, được phát triển bởi **Bjarne Stroustrup** vào đầu những năm 1980 như một bản mở rộng của ngôn ngữ **C**.
+
+### Đặc điểm chính của C++:
+
+1. **Hướng đối tượng (OOP)**: Hỗ trợ các khái niệm như lớp (`class`), đối tượng (`object`), kế thừa, đa hình, đóng gói...
+2. **Hiệu năng cao**: C++ cho phép lập trình gần với phần cứng, tối ưu hiệu năng — lý tưởng cho các ứng dụng thời gian thực như game, hệ điều hành, trình biên dịch.
+3. **Tính linh hoạt**: Có thể lập trình theo kiểu thủ tục (giống C), hướng đối tượng, hoặc kết hợp cả hai.
+4. **Quản lý bộ nhớ thủ công**: Cho phép người lập trình quản lý bộ nhớ động thông qua `new`, `delete`, giúp tối ưu hiệu suất nhưng cũng dễ gây lỗi nếu không cẩn thận.
+5. **Thư viện STL (Standard Template Library)**: Cung cấp nhiều cấu trúc dữ liệu và thuật toán như `vector`, `map`, `set`, `queue`, `stack`,...
+
+### C++ được sử dụng trong đâu?
+
+* Phát triển phần mềm hệ thống (Windows, Linux Kernel modules, trình điều khiển)
+* Game Engine (Unreal Engine, Unity (một phần))
+* Ứng dụng nhúng và vi điều khiển
+* Tài chính, mô phỏng, phần mềm hiệu suất cao
+* Trí tuệ nhân tạo và machine learning (trong các phần mềm cần tốc độ cao)"
+Python là gì?,"**Python** là một ngôn ngữ lập trình **thông dịch**, **đa mục đích**, **mức cao**, được tạo ra bởi **Guido van Rossum** và phát hành lần đầu vào năm **1991**.
+
+### **Đặc điểm nổi bật của Python**:
+
+1. **Cú pháp đơn giản, dễ đọc**: Python giống như ngôn ngữ tự nhiên, rất phù hợp cho người mới bắt đầu học lập trình.
+2. **Đa nền tảng**: Chạy được trên Windows, macOS, Linux, v.v.
+3. **Thông dịch (interpreted)**: Không cần biên dịch trước, mã được thực thi trực tiếp — thuận tiện khi phát triển và thử nghiệm.
+4. **Quản lý bộ nhớ tự động (garbage collection)**: Không cần quản lý bộ nhớ thủ công như trong C/C++.
+5. **Hỗ trợ lập trình đa mô hình**:
+
+   * Hướng đối tượng (OOP)
+   * Thủ tục (procedural)
+   * Hàm (functional)
+
+### **Thư viện và Framework phong phú**:
+
+Python có một hệ sinh thái **rất mạnh mẽ**, phục vụ nhiều lĩnh vực:
+
+* **Web**: Django, Flask, FastAPI
+* **Khoa học dữ liệu**: NumPy, Pandas, Matplotlib, SciPy
+* **Trí tuệ nhân tạo**: TensorFlow, PyTorch, scikit-learn
+* **Tự động hóa và viết script**
+* **Machine learning / Deep learning**
+* **Game**: Pygame
+* **Ứng dụng desktop**: Tkinter, PyQt
+
+### Python được dùng ở đâu?
+
+* Google, YouTube, Instagram, Dropbox... đều có dùng Python.
+* Phân tích dữ liệu, AI/ML, backend web, scripting, kiểm thử phần mềm, v.v."
+Lập trình hướng đối tượng là gì?,"**Lập trình hướng đối tượng** (tiếng Anh: **Object-Oriented Programming – OOP**) là một **phương pháp lập trình** dựa trên **khái niệm ""đối tượng""** (object), trong đó phần mềm được tổ chức thành các **đối tượng tương tác với nhau** thay vì chỉ là các hàm và cấu trúc dữ liệu rời rạc.
+
+### **Mục tiêu chính của OOP**:
+
+* Mô phỏng thế giới thực trong phần mềm bằng cách mô tả các đối tượng có **thuộc tính (data)** và **hành vi (hàm/phương thức)**.
+* Tăng **tái sử dụng mã** (code reuse), **dễ bảo trì**, **dễ mở rộng**, và **quản lý phần mềm tốt hơn**.
+
+### **4 tính chất cơ bản của lập trình hướng đối tượng**:
+
+1. **Đóng gói (Encapsulation)**
+   Ẩn chi tiết bên trong đối tượng, chỉ cung cấp giao diện công khai (public).
+   Giúp giảm phụ thuộc và bảo mật thông tin.
+
+2. **Kế thừa (Inheritance)**
+   Lớp con (subclass) có thể **kế thừa** thuộc tính và phương thức từ lớp cha (superclass).
+   Giúp tái sử dụng mã và mở rộng chức năng.
+
+3. **Đa hình (Polymorphism)**
+   Cùng một hành động nhưng có thể được thực hiện theo nhiều cách khác nhau.
+   Ví dụ: cùng hàm `draw()` nhưng đối với `Hình tròn`, `Hình vuông` thì cách vẽ khác nhau.
+
+4. **Trừu tượng (Abstraction)**
+   Ẩn đi chi tiết phức tạp, chỉ giữ lại phần cần thiết để tương tác.
+   Giúp tập trung vào chức năng chính, bỏ qua phần triển khai bên trong.
+
+### OOP được sử dụng nhiều trong:
+
+* Java, C++, C#, Python, Ruby,...
+* Xây dựng phần mềm lớn, dễ bảo trì: ứng dụng web, ứng dụng desktop, game, hệ thống doanh nghiệp..."
+Thuật toán tìm kiếm nhị phân là gì?,"**Thuật toán tìm kiếm nhị phân** (tiếng Anh: **Binary Search**) là một **thuật toán tìm kiếm** rất hiệu quả, dùng để tìm một phần tử trong **một dãy đã được sắp xếp** (tăng dần hoặc giảm dần).
+
+### **Nguyên lý hoạt động**
+
+Thuật toán chia dãy thành 2 nửa:
+
+1. So sánh phần tử ở **giữa** với giá trị cần tìm.
+2. Nếu **bằng**, trả về chỉ số (hoặc giá trị).
+3. Nếu **nhỏ hơn**, tìm ở **nửa bên phải**.
+4. Nếu **lớn hơn**, tìm ở **nửa bên trái**.
+5. Lặp lại đến khi tìm thấy hoặc không còn phần tử nào.
+
+### **Điều kiện sử dụng**
+
+* Dữ liệu **phải được sắp xếp** trước.
+
+### **Độ phức tạp thời gian**
+
+* **Tốt nhất:** O(1) (tìm thấy ngay ở giữa)
+* **Trung bình & tệ nhất:** **O(log_2 n)** (vì mỗi bước loại bỏ 1 nửa dãy)
+
+### **So sánh với tìm kiếm tuyến tính (Linear Search)**
+
+| Tìm kiếm tuyến tính (Linear) | Tìm kiếm nhị phân (Binary) |
+| ---------------------------- | -------------------------- |
+| Không cần sắp xếp            | Phải sắp xếp trước         |
+| O(n)                         | O(log n)                   |
+| Dễ viết, đơn giản hơn        | Phức tạp hơn một chút      |"
+Lập trình chức năng (Functional Programming) là gì?,"**Lập trình chức năng** (tiếng Anh: **Functional Programming – FP**) là một **mô hình lập trình** trong đó **hàm (function)** là thành phần trung tâm, và mọi thứ được xây dựng dựa trên việc **gọi các hàm thuần (pure functions)** và **tránh thay đổi trạng thái (immutability)**.
+
+### **Mục tiêu chính**
+
+Tập trung vào **""cái gì"" cần làm** hơn là **""làm như thế nào""**, với các đặc điểm:
+
+* Tránh **trạng thái thay đổi (mutable state)**
+* Tránh **vòng lặp có tác dụng phụ (side effects)**
+* Ưu tiên sử dụng **hàm thuần** và **hàm bậc cao**
+
+### **Đặc điểm nổi bật**
+
+| Tính chất                               | Mô tả                                                                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Hàm thuần (Pure Function)**           | Hàm mà **đầu ra chỉ phụ thuộc vào đầu vào** và không gây tác dụng phụ (side effects). |
+| **Bất biến (Immutability)**             | Dữ liệu không bị thay đổi sau khi tạo.                                                |
+| **Hàm bậc cao (Higher-order function)** | Hàm có thể **nhận hàm khác làm đối số** hoặc **trả về hàm**.                          |
+| **Đệ quy (Recursion)**                  | Được dùng thay cho vòng lặp (`for`, `while`).                                         |
+| **Không có trạng thái toàn cục**        | Không dùng biến toàn cục hoặc thay đổi trạng thái hệ thống.                           |
+
+### **Ngôn ngữ hỗ trợ lập trình hàm**
+
+* **Thuần chức năng**: Haskell, Lisp, Elm, OCaml
+* **Hỗ trợ kết hợp (đa mô hình)**: Python, JavaScript, Scala, Kotlin, Rust, F#, Clojure
+
+### **So sánh với lập trình hướng đối tượng (OOP)**
+
+| Khía cạnh       | Lập trình chức năng (FP) | Lập trình hướng đối tượng (OOP)      |
+| --------------- | ------------------------ | ------------------------------------ |
+| Trạng thái      | Không thay đổi           | Có trạng thái, đối tượng giữ dữ liệu |
+| Cấu trúc chính  | Hàm                      | Đối tượng và lớp                     |
+| Quản lý dữ liệu | Dữ liệu bất biến         | Dữ liệu thay đổi theo trạng thái     |
+| Cách tiếp cận   | Khai báo (declarative)   | Câu lệnh (imperative)                |
+
+### **Ứng dụng**
+
+* Xử lý song song, lập trình bất đồng bộ (asynchronous)
+* Xử lý dữ liệu, phân tích dữ liệu lớn (Big Data)
+* Hệ thống tài chính (nơi tính toán cần độ chính xác và không có tác dụng phụ)"
+Dữ liệu lớn (Big Data) là gì?,"**Dữ liệu lớn** (tiếng Anh: **Big Data**) là thuật ngữ dùng để chỉ **khối lượng dữ liệu rất lớn**, có **tốc độ phát sinh nhanh**, và có **định dạng đa dạng**, vượt quá khả năng xử lý của các hệ thống cơ sở dữ liệu truyền thống.
+
+### **Định nghĩa ngắn gọn**:
+
+> Big Data là tập hợp dữ liệu có **kích thước, tốc độ và độ phức tạp cao**, đòi hỏi những công nghệ và phương pháp mới để **lưu trữ, xử lý và phân tích** hiệu quả.
+
+### **Đặc điểm của Big Data – ""5V"" nổi tiếng**:
+
+| Chữ V                     | Mô tả                                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Volume (Khối lượng)**   | Dữ liệu có thể lên tới hàng **terabyte (TB)**, **petabyte (PB)** hoặc hơn.                                                |
+| **Velocity (Tốc độ)**     | Dữ liệu được tạo ra và cập nhật **liên tục theo thời gian thực**.                                                         |
+| **Variety (Đa dạng)**     | Dữ liệu có thể là: **có cấu trúc** (SQL), **không có cấu trúc** (ảnh, video, văn bản), hoặc **bán cấu trúc** (JSON, XML). |
+| **Veracity (Độ tin cậy)** | Dữ liệu có thể **nhiễu, không đầy đủ hoặc sai lệch**, cần được xử lý để đảm bảo chất lượng.                               |
+| **Value (Giá trị)**       | Giá trị chỉ có được khi dữ liệu được **phân tích và khai thác thông minh**.                                               |
+
+### **Nguồn tạo ra Big Data**
+
+* Mạng xã hội (Facebook, Twitter)
+* IoT (thiết bị cảm biến, camera, thiết bị thông minh)
+* Giao dịch tài chính, thương mại điện tử
+* Log hệ thống, máy chủ, app
+* Ảnh, video, âm thanh (YouTube, camera an ninh...)
+
+### **Công nghệ & công cụ xử lý Big Data**
+
+| Mục đích              | Công cụ phổ biến            |
+| --------------------- | --------------------------- |
+| **Lưu trữ phân tán**  | Hadoop HDFS, Amazon S3      |
+| **Xử lý dữ liệu lớn** | Apache Hadoop, Apache Spark |
+| **Truy vấn dữ liệu**  | Hive, Impala, Presto        |
+| **Trực quan hóa**     | Tableau, Power BI, Grafana  |
+| **NoSQL databases**   | MongoDB, Cassandra, HBase   |
+
+### **Ứng dụng thực tế của Big Data**
+
+* **Phân tích hành vi khách hàng**
+* **Cá nhân hóa quảng cáo**
+* **Phát hiện gian lận (fraud detection)**
+* **Dự đoán xu hướng thị trường**
+* **Giám sát y tế từ xa**
+* **Quản lý giao thông, đô thị thông minh**
+
+### Big Data khác với dữ liệu thông thường như thế nào?
+
+| Tiêu chí        | Dữ liệu truyền thống | Dữ liệu lớn (Big Data)         |
+| --------------- | -------------------- | ------------------------------ |
+| Dung lượng      | Nhỏ – vừa            | Rất lớn (TB  PB  ZB)         |
+| Tốc độ cập nhật | Chậm – trung bình    | Rất nhanh (real-time)          |
+| Kiểu dữ liệu    | Có cấu trúc          | Đa dạng, phức tạp              |
+| Công cụ xử lý   | RDBMS (SQL)          | Hadoop, Spark, NoSQL, Kafka... |"
+Blockchain là gì và ứng dụng của nó?,"**Blockchain** (chuỗi khối) là một công nghệ lưu trữ dữ liệu **phi tập trung** và **bảo mật cao**, trong đó thông tin được ghi lại thành các **khối (blocks)** được liên kết với nhau bằng **hàm băm (hash)**, tạo thành một **chuỗi không thể thay đổi**.
+
+## **Blockchain là gì?**
+
+> Blockchain là một **cơ sở dữ liệu phân tán** lưu trữ thông tin trong các **khối**, mỗi khối chứa dữ liệu và liên kết mật mã với khối trước đó, đảm bảo rằng dữ liệu **không thể bị sửa đổi** nếu không có sự đồng thuận của toàn mạng.
+
+### **Cấu trúc cơ bản của một Blockchain**
+
+Mỗi **khối (block)** chứa:
+
+* Dữ liệu (ví dụ: giao dịch)
+* Mã băm của chính nó (hash)
+* Mã băm của khối trước đó (previous hash)
+* Dấu thời gian (timestamp)
+
+ Tất cả các khối tạo thành một **chuỗi liên kết chặt chẽ**, nếu một khối bị sửa, toàn bộ chuỗi sẽ **bị phát hiện là sai lệch**.
+
+### **Đặc điểm nổi bật**
+
+| Đặc điểm              | Giải thích                                                                |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Phi tập trung**     | Không có máy chủ trung tâm – mọi người tham gia đều giữ bản sao dữ liệu.  |
+| **Minh bạch**         | Tất cả thay đổi đều được ghi lại và ai cũng có thể kiểm tra.              |
+| **Không thể sửa đổi** | Một khi dữ liệu được ghi vào chuỗi, rất khó hoặc không thể sửa.           |
+| **Bảo mật cao**       | Sử dụng thuật toán mật mã và đồng thuận (Proof of Work, Proof of Stake…). |
+
+## **Ứng dụng thực tế của Blockchain**
+
+### 1. **Tiền mã hóa (Cryptocurrency)**
+
+* Ví dụ: **Bitcoin, Ethereum**
+* Giao dịch không cần trung gian, an toàn, phi tập trung.
+
+### 2. **Hợp đồng thông minh (Smart Contract)**
+
+* Chạy trên các nền tảng như Ethereum.
+* Hợp đồng tự động thực hiện khi đủ điều kiện – không cần bên thứ ba.
+
+### 3. **Chuỗi cung ứng (Supply Chain)**
+
+* Ghi nhận quá trình vận chuyển hàng hóa minh bạch, không bị làm giả.
+
+### 4. **Y tế**
+
+* Quản lý hồ sơ bệnh án an toàn, chia sẻ giữa các bệnh viện mà không sợ rò rỉ.
+
+### 5. **Quản lý tài sản kỹ thuật số**
+
+* NFT (Non-Fungible Token) dùng trong game, nghệ thuật số, sưu tầm.
+
+### 6. **Bầu cử điện tử**
+
+* Minh bạch, không thể gian lận, người dùng kiểm chứng được kết quả.
+
+## **Ưu điểm và Hạn chế**
+
+| Ưu điểm                           | Hạn chế                                   |
+| --------------------------------- | ----------------------------------------- |
+| Bảo mật, minh bạch, chống sửa đổi | Tốc độ chậm (với một số mạng như Bitcoin) |
+| Không cần trung gian              | Tiêu tốn năng lượng (PoW)                 |
+| Tăng niềm tin giữa các bên        | Khó thay đổi/ nâng cấp                    |
+| Mở rộng ứng dụng đa ngành         | Chưa có khung pháp lý rõ ràng             |"
+Hệ thống phân tán là gì?,"**Hệ thống phân tán** (tiếng Anh: **Distributed System**) là một mô hình hệ thống trong đó **nhiều máy tính (hoặc nút)** hợp tác với nhau để **thực hiện một nhiệm vụ chung**, nhưng với người dùng thì nó hoạt động **như một hệ thống duy nhất**.
+
+## **Định nghĩa ngắn gọn**
+
+> Hệ thống phân tán là tập hợp các **máy tính độc lập**, kết nối với nhau qua mạng, phối hợp để **chia sẻ tài nguyên, xử lý song song** hoặc cung cấp **dịch vụ ổn định, đáng tin cậy** cho người dùng.
+
+## **Đặc điểm chính của hệ thống phân tán**
+
+| Tính chất            | Mô tả                                                                                                     |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Tính minh bạch**   | Người dùng **không thấy được sự phân tán**. Ví dụ: truy cập Google không cần biết máy chủ nào đang xử lý. |
+| **Tính mở**          | Dễ dàng mở rộng, thêm bớt nút trong hệ thống.                                                             |
+| **Tính chịu lỗi**    | Nếu một nút hỏng, hệ thống vẫn có thể hoạt động (ví dụ như trong Google, Facebook, Netflix).              |
+| **Khả năng mở rộng** | Có thể **phân bổ tải**, xử lý dữ liệu lớn bằng cách tăng số lượng máy.                                    |
+| **Tính đồng bộ**     | Các máy cần **phối hợp** và đảm bảo **nhất quán dữ liệu**.                                                |
+
+## **Thành phần cơ bản**
+
+* **Nút (node)**: máy chủ hoặc máy tính trong hệ thống
+* **Mạng truyền thông**: cho phép các nút trao đổi dữ liệu
+* **Giao thức đồng thuận**: giúp các nút thống nhất (ví dụ: Paxos, Raft)
+* **Middleware**: phần mềm trung gian giúp quản lý phân tán, giao tiếp giữa các nút
+
+## **Ưu điểm & Nhược điểm**
+
+| Ưu điểm                   | Nhược điểm                        |
+| --------------------------- | ----------------------------------- |
+| Tăng hiệu năng & mở rộng dễ | Lập trình và triển khai phức tạp    |
+| Tăng độ tin cậy & dự phòng  | Khó xử lý lỗi mạng, đồng bộ dữ liệu |
+| Phân tán tải tốt            | Khó đảm bảo nhất quán (CAP Theorem) |
+
+## **Một số khái niệm liên quan**
+
+* **CAP Theorem**: Trong hệ thống phân tán, **không thể đồng thời** đảm bảo cả 3 yếu tố:
+
+  * **Consistency** (Nhất quán)
+  * **Availability** (Khả dụng)
+  * **Partition tolerance** (Chịu phân mảnh mạng)
+
+* **Replication vs. Sharding**:
+
+  * **Replication**: sao chép dữ liệu để tăng độ tin cậy.
+  * **Sharding**: chia nhỏ dữ liệu để tăng hiệu năng."
+Chạy thử nghiệm (Unit Test) trong lập trình là gì?,"**Chạy thử nghiệm (Unit Test)** trong lập trình là quá trình kiểm tra **từng đơn vị nhỏ nhất của mã nguồn** (thường là một hàm, phương thức hoặc lớp) để đảm bảo rằng nó **hoạt động đúng như mong đợi**.
+
+### Cụ thể:
+
+* **""Unit""** là đơn vị nhỏ nhất có thể kiểm thử độc lập, ví dụ: một hàm tính tổng hai số.
+* **Unit Test** là đoạn mã kiểm tra xem đơn vị đó có trả về kết quả đúng với đầu vào đã biết hay không.
+* Việc **""chạy Unit Test""** có nghĩa là thực thi toàn bộ các bài kiểm thử này để phát hiện lỗi sớm trong quá trình phát triển phần mềm.
+
+### Lợi ích của Unit Test:
+
+* Phát hiện lỗi sớm.
+* Hỗ trợ tái cấu trúc (refactor) mà không phá vỡ chức năng cũ.
+* Giúp phát triển phần mềm một cách ổn định và đáng tin cậy."
+Thuật toán học máy (Machine Learning) là gì?,"**Thuật toán học máy (Machine Learning algorithm)** là một **tập hợp các bước hoặc quy tắc** cho phép máy tính **học từ dữ liệu** để thực hiện một nhiệm vụ cụ thể **mà không cần lập trình tường minh** cho từng tình huống.
+
+### Định nghĩa đơn giản:
+
+> Học máy là cách để **máy tính tự học từ dữ liệu**, rút ra mô hình (pattern), rồi **dự đoán hoặc ra quyết định** dựa trên dữ liệu mới.
+
+### Một số loại thuật toán học máy phổ biến:
+
+1. **Học có giám sát (Supervised Learning)**
+
+   * Dữ liệu đầu vào có gắn nhãn (label).
+   * Ví dụ: Dự đoán giá nhà, phân loại email là spam/không spam.
+   * Thuật toán: Linear Regression, Decision Tree, SVM, Neural Network...
+
+2. **Học không giám sát (Unsupervised Learning)**
+
+   * Dữ liệu đầu vào **không có nhãn**.
+   * Mục tiêu: Tìm ra cấu trúc hoặc nhóm trong dữ liệu.
+   * Ví dụ: Phân nhóm khách hàng (clustering), phát hiện bất thường (anomaly detection).
+   * Thuật toán: K-Means, DBSCAN, PCA...
+
+3. **Học tăng cường (Reinforcement Learning)**
+
+   * Máy học thông qua **tương tác với môi trường** và nhận phần thưởng (reward).
+   * Ví dụ: Robot học cách di chuyển, AI chơi game như cờ vua.
+   * Thuật toán: Q-learning, Deep Q-Network (DQN), Policy Gradient...
+
+### Lợi ích:
+
+* Tự động hóa việc phân tích và ra quyết định.
+* Ứng dụng trong nhiều lĩnh vực: y tế, tài chính, công nghiệp, thương mại điện tử, v.v."
+Cách hoạt động của mạng máy tính?,"**Mạng máy tính (Computer Network)** hoạt động dựa trên việc **kết nối nhiều thiết bị** (máy tính, điện thoại, máy chủ, router, switch,...) để **trao đổi dữ liệu với nhau** thông qua **giao thức truyền thông (protocol)** như TCP/IP.
+
+### Nguyên lý hoạt động cơ bản:
+
+1. **Thiết bị gửi và nhận (Sender & Receiver):**
+
+   * Một thiết bị (ví dụ: máy tính A) gửi dữ liệu.
+   * Một thiết bị khác (ví dụ: máy tính B) nhận dữ liệu.
+
+2. **Dữ liệu được chia nhỏ thành các gói tin (packets):**
+
+   * Trước khi gửi, dữ liệu được chia thành từng phần nhỏ để dễ truyền qua mạng.
+
+3. **Định tuyến (Routing):**
+
+   * Các thiết bị định tuyến (router) tìm đường đi tối ưu để các gói tin đến được nơi nhận.
+
+4. **Giao thức truyền thông (Protocol):**
+
+   * Giao thức giống như “ngôn ngữ” giúp các thiết bị hiểu nhau.
+   * Ví dụ: TCP (bảo đảm gói tin đến đủ và đúng thứ tự), IP (định địa chỉ đích), HTTP (truy cập web)...
+
+5. **Tầng mô hình OSI hoặc TCP/IP:**
+
+   * Mạng hoạt động theo **mô hình phân lớp**, ví dụ:
+
+     * Tầng ứng dụng (HTTP, FTP…)
+     * Tầng vận chuyển (TCP, UDP)
+     * Tầng mạng (IP)
+     * Tầng liên kết dữ liệu và vật lý (Ethernet, Wi-Fi…)
+
+6. **Khi dữ liệu đến nơi nhận:**
+
+   * Các gói tin được **lắp ghép lại** thành dữ liệu gốc (ví dụ: hình ảnh, video, văn bản...).
+
+### Các loại mạng thường gặp:
+
+* **LAN (Local Area Network):** Mạng nội bộ trong nhà, văn phòng.
+* **WAN (Wide Area Network):** Mạng diện rộng như Internet.
+* **MAN (Metropolitan Area Network):** Mạng trong phạm vi thành phố."
+Sự khác nhau giữa lập trình đồng thời và lập trình bất đồng bộ?,"Sự khác nhau giữa **lập trình đồng thời (concurrent programming)** và **lập trình bất đồng bộ (asynchronous programming)** là một trong những khái niệm quan trọng trong lập trình hiện đại, đặc biệt khi xử lý các tác vụ liên quan đến I/O, đa luồng, hoặc hiệu suất cao.
+
+### Định nghĩa nhanh:
+
+**Lập trình đồng thời (Concurrent Programming)** Cho phép nhiều tác vụ **diễn ra cùng thời gian (cùng lúc về logic)**, có thể **chạy xen kẽ nhau** trên một hoặc nhiều luồng (thread).
+**Lập trình bất đồng bộ (Asynchronous Programming)** Là một **cách viết mã để xử lý các tác vụ mất thời gian** (như đọc file, gọi API) **mà không chặn luồng chính** – thay vào đó, sử dụng cơ chế gọi lại (callback), promise, async/await để tiếp tục xử lý sau khi tác vụ hoàn tất.
+
+### So sánh chi tiết:
+
+| Tiêu chí             | Đồng thời (Concurrent)                                     | Bất đồng bộ (Asynchronous)                               |
+| -------------------- | ---------------------------------------------------------- | -------------------------------------------------------- |
+| **Mục tiêu**         | Thực hiện **nhiều tác vụ cùng lúc** (logic)                | Không chặn chương trình khi xử lý các tác vụ **I/O lâu** |
+| **Cơ chế hoạt động** | Dùng nhiều **luồng (threads)** hoặc tiến trình (processes) | Dùng **event loop**, `callback`, `async/await`           |
+| **Ứng dụng**         | Xử lý song song tính toán, đa luồng                        | Xử lý I/O không đồng bộ: mạng, đọc ghi file, gọi API     |
+| **Tài nguyên**       | Thường tốn **nhiều RAM/CPU hơn**                           | Ít tốn tài nguyên hơn, nhẹ hơn                           |
+| **Ví dụ ngôn ngữ**   | Java, C++, Python (threading, multiprocessing)             | JavaScript (`async/await`), Python (`asyncio`)           |
+
+### Kết luận dễ hiểu:
+
+* **Đồng thời** = Có thể có **nhiều luồng chạy cùng lúc** (trên nhiều nhân CPU hoặc xen kẽ trên 1 nhân).
+* **Bất đồng bộ** = Một luồng **chờ ít hơn**, xử lý thông minh hơn với I/O để **tận dụng thời gian rảnh**."
+Biến đổi Fourier trong xử lý tín hiệu là gì?,"**Biến đổi Fourier** (Fourier Transform) là một công cụ toán học **biến đổi một tín hiệu trong miền thời gian thành miền tần số**. Trong xử lý tín hiệu, nó giúp ta **hiểu được các thành phần tần số** có trong tín hiệu, từ đó phục vụ cho việc phân tích, lọc, nén, hoặc truyền tín hiệu.
+
+### Hiểu đơn giản:
+
+> Biến đổi Fourier giúp **biểu diễn tín hiệu như tổ hợp của các sóng hình sin** với các tần số, biên độ và pha khác nhau.
+
+Ví dụ: Một tín hiệu âm thanh (dạng sóng) có thể được phân tích thành các nốt nhạc (tần số) khác nhau. Biến đổi Fourier giúp ""nghe"" xem tín hiệu đó có bao nhiêu âm trầm, âm cao.
+
+### Công thức biến đổi Fourier liên tục:
+
+Với tín hiệu liên tục $x(t)$, biến đổi Fourier là:
+
+$$
+X(f) = \int_{-\infty}^{\infty} x(t) e^{-j2\pi ft} dt
+$$
+
+* $x(t)$: tín hiệu trong miền thời gian
+* $X(f)$: tín hiệu trong miền tần số
+* $f$: tần số
+* $j$: đơn vị ảo
+
+### Trong thực tế (với tín hiệu số):
+
+Ta sử dụng **Biến đổi Fourier rời rạc (DFT)** hoặc **Biến đổi Fourier nhanh (FFT)** để xử lý tín hiệu trên máy tính.
+
+### Ứng dụng của biến đổi Fourier:
+
+* **Xử lý âm thanh** (nhận dạng giọng nói, lọc nhiễu)
+* **Xử lý ảnh** (nén ảnh JPEG, làm sắc nét hoặc làm mờ)
+* **Truyền thông số** (phân tích băng thông, điều chế tín hiệu)
+* **Kỹ thuật y sinh** (chụp MRI, ECG)
+* **Phân tích dao động trong cơ khí, địa chấn học,...**
+
+### Kết luận:
+
+> Biến đổi Fourier là **cây cầu nối giữa miền thời gian và miền tần số**, giúp ta ""nhìn thấy"" những gì ẩn bên trong tín hiệu – điều mà mắt thường không thể thấy trong dạng sóng thời gian."
+Hàm hash trong mã hóa là gì?,"**Hàm hash trong mã hóa (cryptographic hash function)** là một loại hàm toán học nhận vào **một chuỗi dữ liệu bất kỳ** (có thể dài ngắn tùy ý) và **trả về một chuỗi có độ dài cố định** (gọi là *giá trị băm* – hash value). Hàm này được thiết kế sao cho **không thể đảo ngược** và rất khó để hai dữ liệu khác nhau tạo ra cùng một giá trị hash.
+
+### Đặc điểm chính của hàm hash trong mã hóa:
+
+| Tính chất                                  | Mô tả                                                                             |
+| ------------------------------------------ | --------------------------------------------------------------------------------- |
+| **Đầu ra có độ dài cố định**               | Dù đầu vào dài hay ngắn, đầu ra luôn có cùng độ dài (ví dụ: 256 bit cho SHA-256). |
+| **Xác định (Deterministic)**               | Cùng một đầu vào sẽ luôn cho ra cùng một kết quả.                                 |
+| **Không thể đảo ngược**                    | Không thể tìm ra dữ liệu gốc từ giá trị hash (khác với mã hóa có thể giải mã).    |
+| **Khó sinh va chạm (Collision-resistant)** | Rất khó để tìm hai dữ liệu khác nhau có cùng giá trị hash.                        |
+| **Thay đổi nhỏ → hash thay đổi lớn**       | Chỉ cần thay đổi 1 ký tự trong đầu vào, giá trị hash sẽ thay đổi hoàn toàn.       |
+
+### Ứng dụng của hàm hash trong mã hóa:
+
+1. **Lưu trữ mật khẩu**:
+   Mật khẩu người dùng được băm rồi lưu, không lưu mật khẩu thật → nếu bị lộ cũng khó bị dùng lại.
+
+2. **Kiểm tra toàn vẹn dữ liệu**:
+   So sánh hash trước và sau khi truyền dữ liệu để kiểm tra có bị thay đổi hay không (dùng trong tải file, blockchain...).
+
+3. **Chữ ký số và chứng thực**:
+   Dùng hash để tạo dấu vân tay số xác minh dữ liệu.
+
+4. **Blockchain và tiền mã hóa**:
+   Bitcoin, Ethereum,... đều dùng hàm hash để tạo block, xác thực giao dịch.
+
+### Một số hàm hash phổ biến:
+
+| Tên     | Độ dài đầu ra | Ghi chú                                      |
+| ------- | ------------- | -------------------------------------------- |
+| MD5     | 128 bit       | Nhanh nhưng **không an toàn**, dễ bị va chạm |
+| SHA-1   | 160 bit       | Tốt hơn MD5 nhưng cũng **không còn an toàn** |
+| SHA-256 | 256 bit       | Được dùng phổ biến, **an toàn** hiện nay     |
+| SHA-3   | 256, 512 bit  | Thiết kế mới, bảo mật cao                    |
+
+### Kết luận:
+
+> Hàm hash trong mã hóa là **công cụ cốt lõi trong bảo mật dữ liệu**, giúp nhận diện, xác minh và bảo vệ thông tin mà **không cần lưu trữ hoặc truyền dữ liệu gốc**."
+Mô hình học sâu (Deep Learning) là gì?,"**Mô hình học sâu (Deep Learning)** là một nhánh của **học máy (Machine Learning)** sử dụng **mạng nơ-ron nhân tạo nhiều lớp (deep neural networks)** để **tự động học đặc trưng từ dữ liệu** và đưa ra dự đoán hoặc quyết định.
+
+### Định nghĩa đơn giản:
+
+> Học sâu là kỹ thuật **máy tính tự học từ dữ liệu bằng cách bắt chước cách hoạt động của não người**, sử dụng **các tầng (layers) xử lý thông tin** để nhận biết mẫu (patterns) phức tạp.
+
+### Cấu trúc cơ bản của mô hình học sâu:
+
+* **Input layer**: Nhận dữ liệu đầu vào (ảnh, văn bản, âm thanh,...).
+* **Hidden layers**: Nhiều tầng ẩn (thường >2) xử lý và trích xuất đặc trưng.
+* **Output layer**: Trả về kết quả dự đoán (phân loại, hồi quy,...).
+
+### Ví dụ mô hình:
+
+* Mạng nơ-ron nhiều lớp (**MLP – Multilayer Perceptron**)
+* Mạng tích chập (**CNN – Convolutional Neural Network**) → xử lý ảnh
+* Mạng hồi tiếp (**RNN – Recurrent Neural Network**) → xử lý chuỗi thời gian, văn bản
+* Transformer (ví dụ như BERT, GPT) → xử lý ngôn ngữ tự nhiên
+
+### Ví dụ ứng dụng học sâu:
+
+| Ứng dụng                | Mô tả                                                    |
+| ----------------------- | -------------------------------------------------------- |
+| Nhận dạng hình ảnh      | Phân loại chó/mèo, nhận diện khuôn mặt                   |
+| Dịch máy                | Dịch văn bản giữa các ngôn ngữ (Google Translate, DeepL) |
+| Nhận dạng giọng nói     | Chuyển lời nói thành văn bản                             |
+| Xử lý ngôn ngữ tự nhiên | Chatbot, tóm tắt văn bản, phân tích cảm xúc              |
+| Xe tự lái               | Nhận diện biển báo, vạch đường, người đi bộ              |
+
+### Tại sao gọi là ""sâu""?
+
+Vì mô hình học sâu **có nhiều tầng (layers)** — càng nhiều tầng, mô hình càng có khả năng **học các đặc trưng trừu tượng, phức tạp hơn**. Ví dụ:
+
+* Tầng đầu: học các cạnh, đường thẳng
+* Tầng giữa: học hình dạng, cấu trúc
+* Tầng sâu: học khái niệm như “khuôn mặt”, “ô tô”,...
+
+### 🔧 Mô hình học sâu được huấn luyện như thế nào?
+
+1. Nhận dữ liệu đầu vào (ví dụ ảnh mèo).
+2. Truyền qua các tầng → mỗi tầng tính toán một phần.
+3. So sánh kết quả đầu ra với nhãn đúng (ground truth).
+4. Tính sai số (loss).
+5. Dùng **backpropagation + tối ưu (gradient descent)** để điều chỉnh trọng số.
+6. Lặp lại nhiều lần cho đến khi mô hình học tốt.
+
+### Tóm lại:
+
+> **Học sâu** là công nghệ đứng sau các hệ thống thông minh ngày nay như ChatGPT, Google Dịch, nhận diện khuôn mặt,... Nó cho phép máy tính **tự học** từ dữ liệu lớn mà **không cần con người lập trình thủ công từng quy tắc**."
